@@ -7,10 +7,8 @@ import (
 	"github.com/garyburd/redigo/redis"
 	"net/url"
 	"time"
-	//	"fmt"
 	"encoding/xml"
 	"github.com/sinelga/images_provider/startones"
-//	"strconv"
 	"strings"
 
 	"github.com/sinelga/images_provider/sitemap_maker/getLinks"
