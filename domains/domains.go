@@ -56,19 +56,17 @@ type Character struct {
 	Created_at       time.Time
 	Updated_at       time.Time
 	Img_file_name    string
-	ImgId		  int
+	ImgId            int
 	Img_content_type string
 	Img_file_size    int
 	Img_updated_at   time.Time
 }
 
 type CharacterSite struct {
-	
 	Site string
-	
+
 	SiteCharacter Character
 }
-
 
 type CharacterRedis struct {
 	Id            string
@@ -81,17 +79,15 @@ type CharacterRedis struct {
 	Region        string
 	Phone         string
 	Created_at    time.Time
-	ImgId		  int	
+	ImgId         int
 	Img_file_name string
 }
 
 type CharacterRedisSite struct {
-	Site string
-	PermLink string
+	Site          string
+	PermLink      string
 	SiteCharaters []CharacterRedis
-	
 }
-
 
 type Paragraph struct {
 	Ptitle     string
